@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{8433323b-f102-4678-83e0-3cfe7e478530}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="RenderTests.h">
@@ -55,6 +58,12 @@
   <ItemGroup>
     <Image Include="res\RenderTests.ico">
       <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\pal_frame.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pal_frame.bmp">
+      <Filter>Graphics</Filter>
     </Image>
   </ItemGroup>
 </Project>

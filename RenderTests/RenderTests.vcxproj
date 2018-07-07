@@ -206,6 +206,8 @@
     <None Include="res\RenderTests.rc2" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="..\..\..\..\Desktop\pal_frame.bmp" />
+    <Image Include="pal_frame.bmp" />
     <Image Include="res\RenderTests.ico" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
