@@ -183,6 +183,7 @@
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="RenderArea.h" />
     <ClInclude Include="RenderTests.h" />
     <ClInclude Include="RenderTestsDlg.h" />
     <ClInclude Include="Resource.h" />
@@ -190,6 +191,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="RenderArea.cpp" />
     <ClCompile Include="RenderTests.cpp" />
     <ClCompile Include="RenderTestsDlg.cpp" />
     <ClCompile Include="stdafx.cpp">
